@@ -5,7 +5,7 @@
   "name":"Dragibus",
   "category":"Candy",
   "prix":"2.40",
-  "img":"../public/img/candy1.png",
+  "img":"../img/candy1.png",
   "quantite": 0
  },
  {

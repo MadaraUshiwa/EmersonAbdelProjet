@@ -23,16 +23,15 @@ function Home(props) {
         <div className="home">
             <div className='home-livraison'>
                 <p>Livraison OFFERTE dans toute la Belgique dès 50€ d’achat </p>
-            </div>   
-            <div className='home-nomdusite'>
-                <h1>Papi Chulo</h1><span className='span-home'>Candy's</span>
             </div>
             <div className="carrousel">
                 {produits.map((produit, index) => (
                     <div key={produit.id} className={index === currentIndex ? 'slide active' : 'slide'}>
-                        <img src={produit.image} alt={produit.name} />
-                        <p>{produit.name}</p>
-                        <p>{produit.prix}</p>
+                        <img src={produit.img} alt={produit.name} />
+                        <div className='carrousel-test'>
+                            <span>{produit.name}</span>
+                            <span>{produit.prix} €</span>
+                        </div>
                     </div>
                 ))}
                 <button className="prev" onClick={prevSlide}>Précédent</button>

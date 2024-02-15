@@ -1,5 +1,5 @@
 import './Categorie.css'
-import { Add_to_pannier } from '../../features/DataSlice/DataSlice';
+
 import {useDispatch, useSelector} from 'react-redux'
 import { Link, useParams } from 'react-router-dom';
 export default function Categorie(){
@@ -15,7 +15,7 @@ export default function Categorie(){
     <div  className="card">
     {sub_data.produits.filter((cat)=>cat.category === category).map((elem,i)=>
       <div key={i} className="card_body">
-       <Link className="click_zone" id={i} to={`details/${elem.brand}/${elem.name}`}></Link>
+       <Link className="click_zone" id={elem.id} to={`details/${elem.id}/${elem.brand}/${elem.name}`}></Link>
        <div className="img">
         <img src={elem.img} alt="" />
        </div>

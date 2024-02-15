@@ -5,6 +5,7 @@ import Connexion from './components/Connexion/Connexion'
 import Categorie from './components/Categorie/Categorie'
 import Panier from './components/Panier/Panier'
 import Produit_details from './components/ProduitDetail/ProduitDetail'
+import Error from './components/Error/error';
 function App() {
     return (
         <div className='App'>
@@ -30,8 +31,9 @@ function App() {
                 <Routes>
                     <Route path='/' element={<Home/>}/>
                     <Route path='Category/:category' element={<Categorie />}/>
+                    <Route path='Category/:category/details/:id/:brand/:produit' element={<Produit_details/>}/>
                     <Route path='Login' element={<Connexion/>}/>
-                    {/* <Route path='*' element={<Error />}/> */}
+                    <Route path='*' element={<Error />}/>
                 </Routes>
                 <Outlet/>
             </div>

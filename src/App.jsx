@@ -4,7 +4,7 @@ import Home from './components/Home/Home'
 import Connexion from './components/Connexion/Connexion'
 import Categorie from './components/Categorie/Categorie'
 import Panier from './components/Panier/Panier'
-import Produit_details from './components/ProduitDetail/ProduitDetail'
+import ProduitDetail from './components/ProduitDetail/ProduitDetail'
 function App() {
     return (
         <div className='App'>

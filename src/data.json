@@ -1,0 +1,146 @@
+[
+ {
+  "id":"0",
+  "brand":"HARIBO",
+  "name":"Dragibus",
+  "category":"Candy",
+  "prix":"2.40",
+  "img":"../public/img/candy1.png",
+  "quantite": 0
+ },
+ {
+  "id":"1",
+  "brand":"HARIBO",
+  "name":"Rotella",
+  "category":"Candy",
+  "prix":"2.20",
+  "img":"../assets/img/candy2.png",
+  "quantite": 0
+ },
+ {
+  "id":"2",
+  "brand":"HARIBO",
+  "name":"Miami Pik",
+  "category":"Candy",
+  "prix":"2.10",
+  "img":"../assets/img/candy3.png",
+  "quantite": 0
+ },
+ {
+  "id":"3",
+  "brand":"HARIBO",
+  "name":"Tagada Pik",
+  "category":"Candy",
+  "prix":"2.99",
+  "img":"../assets/img/candy4.png",
+  "quantite": 0
+ },
+ {
+  "id":"4",
+  "brand":"Lays",
+  "name":"Bolognese Flavour",
+  "category":"Chips",
+  "prix":"1.80",
+  "img":"",
+  "quantite": 0
+ },
+ {
+  "id":"5",
+  "brand":"Lays",
+  "name":"Nature",
+  "category":"Chips",
+  "prix":"1.50",
+  "img":"",
+  "quantite": 0
+ },
+ {
+  "id":"6",
+  "brand":"Lays",
+  "name":"Spice Paprika",
+  "category":"Chips",
+  "prix":"1.20",
+  "img":"",
+  "quantite": 0
+ },
+ {
+  "id":"7",
+  "brand":"Croby",
+  "name":"Bicky",
+  "category":"Chips",
+  "prix":"1.30",
+  "img":"",
+  "quantite": 0
+ },
+ {
+  "id":"8",
+  "brand":"Mars",
+  "name":"Chocolat bar",
+  "category":"Chocolat",
+  "prix":"1.10",
+  "img":"",
+  "quantite": 0
+ },
+ {
+  "id":"9",
+  "brand":"Snickers",
+  "name":"Chocolat bar",
+  "category":"Chocolat",
+  "prix":"2",
+  "img":"",
+  "quantite": 0
+ },
+ {
+  "id":"10",
+  "brand":"Twix",
+  "name":"Double-bar creme",
+  "category":"Chocolat",
+  "prix":"1.89",
+  "img":"",
+  "quantite": 0
+ },
+ {
+  "id":"11",
+  "brand":"Kinder",
+  "name":"x2 bueno White",
+  "category":"Chocolat",
+  "prix":"2.30",
+  "img":"",
+  "quantite": 0
+ },
+ {
+  "id":"12",
+  "brand":"MAGNUM",
+  "name":"Almond",
+  "category":"Ice Cream",
+  "prix":"2.19",
+  "img":"",
+  "quantite": 0
+ },
+ {
+  "id":"13",
+  "brand":"Cola",
+  "name":"Calippo",
+  "category":"Ice Cream",
+  "prix":"1.50",
+  "img":"",
+  "quantite": 0
+ },
+ {
+  "id":"14",
+  "brand":"Cola",
+  "name":"Cornetto",
+  "category":"Ice Cream",
+  "prix":"1.79",
+  "img":"",
+  "quantite": 0
+ },
+ {
+  "id":"15",
+  "brand":"MAGNUM",
+  "name":"Classic",
+  "category":"Ice Cream",
+  "prix":"1.99",
+  "img":"",
+  "quantite": 0
+ }
+]

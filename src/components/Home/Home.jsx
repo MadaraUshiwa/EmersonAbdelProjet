@@ -10,12 +10,7 @@ function Home(props) {
             <div className='home-nomdusite'>
                 <h1>Papi Chulo</h1><span className='span-home'>Candy's</span>
             </div>
-        
-
         </div>
-
-
-
     );
 }
 

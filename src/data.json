@@ -5,7 +5,7 @@
   "name":"Dragibus",
   "category":"Candy",
   "prix":"2.40",
-  "img":"../public/img/candy1.png",
+  "img":"../img/candy1.png",
   "quantite": 0
  },
  {
@@ -14,7 +14,7 @@
   "name":"Rotella",
   "category":"Candy",
   "prix":"2.20",
-  "img":"../assets/img/candy2.png",
+  "img":"../img/candy2.png",
   "quantite": 0
  },
  {
@@ -23,7 +23,7 @@
   "name":"Miami Pik",
   "category":"Candy",
   "prix":"2.10",
-  "img":"../assets/img/candy3.png",
+  "img":"../img/candy3.png",
   "quantite": 0
  },
  {
@@ -32,7 +32,7 @@
   "name":"Tagada Pik",
   "category":"Candy",
   "prix":"2.99",
-  "img":"../assets/img/candy4.png",
+  "img":"../img/candy4.png",
   "quantite": 0
  },
  {
@@ -41,7 +41,7 @@
   "name":"Bolognese Flavour",
   "category":"Chips",
   "prix":"1.80",
-  "img":"",
+  "img":"../img/chips2.png",
   "quantite": 0
  },
  {
@@ -50,16 +50,16 @@
   "name":"Nature",
   "category":"Chips",
   "prix":"1.50",
-  "img":"",
+  "img":"../img/chips3.png",
   "quantite": 0
  },
  {
   "id":"6",
   "brand":"Lays",
-  "name":"Spice Paprika",
+  "name":"Spicy Paprika",
   "category":"Chips",
   "prix":"1.20",
-  "img":"",
+  "img":"../img/chips4.png",
   "quantite": 0
  },
  {
@@ -68,7 +68,7 @@
   "name":"Bicky",
   "category":"Chips",
   "prix":"1.30",
-  "img":"",
+  "img":"../img/chips1.png",
   "quantite": 0
  },
  {
@@ -77,7 +77,7 @@
   "name":"Chocolat bar",
   "category":"Chocolat",
   "prix":"1.10",
-  "img":"",
+  "img":"../img/chocolate1.png",
   "quantite": 0
  },
  {
@@ -86,7 +86,7 @@
   "name":"Chocolat bar",
   "category":"Chocolat",
   "prix":"2",
-  "img":"",
+  "img":"../img/chocolate2.png",
   "quantite": 0
  },
  {
@@ -95,7 +95,7 @@
   "name":"Double-bar creme",
   "category":"Chocolat",
   "prix":"1.89",
-  "img":"",
+  "img":"../img/chocolate3.png",
   "quantite": 0
  },
  {
@@ -104,7 +104,7 @@
   "name":"x2 bueno White",
   "category":"Chocolat",
   "prix":"2.30",
-  "img":"",
+  "img":"../img/chocolate4.png",
   "quantite": 0
  },
  {
@@ -113,7 +113,7 @@
   "name":"Almond",
   "category":"Ice Cream",
   "prix":"2.19",
-  "img":"",
+    "img":"../img/ice_cream1.png",
   "quantite": 0
  },
  {
@@ -122,7 +122,7 @@
   "name":"Calippo",
   "category":"Ice Cream",
   "prix":"1.50",
-  "img":"",
+    "img":"../img/ice_cream2.png",
   "quantite": 0
  },
  {
@@ -131,7 +131,7 @@
   "name":"Cornetto",
   "category":"Ice Cream",
   "prix":"1.79",
-  "img":"",
+    "img":"../img/ice_cream3.png",
   "quantite": 0
  },
  {
@@ -140,7 +140,7 @@
   "name":"Classic",
   "category":"Ice Cream",
   "prix":"1.99",
-  "img":"",
+    "img":"../img/ice_cream4.png",
   "quantite": 0
  }
 ]

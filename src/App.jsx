@@ -33,7 +33,7 @@ function App() {
                     <Route path='Category/Chips' element={<Categorie choix={'Chips'}/>}/>
                     <Route path='Category/Chocolat' element={<Categorie choix={'Chocolat'}/>}/>
                     <Route path='Category/Ice Cream' element={<Categorie choix={'Ice Cream'}/>}/>
-                    <Route path='Login'/>
+                    <Route path='Login' element={<Connexion/>}/>
                 </Routes>
                 <Outlet/>
             </div>

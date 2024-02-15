@@ -1,18 +1,21 @@
 import './Categorie.css'
 import { Add_to_pannier } from '../../features/DataSlice/DataSlice';
 import {useDispatch, useSelector} from 'react-redux'
-export default function Categorie({choix}){
+import { Link, useParams } from 'react-router-dom';
+export default function Categorie(){
+ const {category}=useParams()
  const sub_data = useSelector((state)=>state.data)
  const dispatch = useDispatch()
  console.log(sub_data);
+ console.log(category+"-------------------------------");
  return(
   <>
    <div className="category_div">
     {/* <h2>here{sub_data.produits[0].name}</h2> */}
     <div  className="card">
-    {sub_data.produits.filter((cat)=>cat.category === choix).map((elem,i)=>
+    {sub_data.produits.filter((cat)=>cat.category === category).map((elem,i)=>
       <div key={i} className="card_body">
-       <div className="click_zone"></div>
+       <Link className="click_zone" id={i} to={`details/${elem.brand}/${elem.name}`}></Link>
        <div className="img">
         <img src={elem.img} alt="" />
        </div>

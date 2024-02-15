@@ -22,18 +22,16 @@ function App() {
                 </nav>
                 <div className="">
                     <button className=''>
-                    <Link  className='Link'to={"Login"}>Login</Link>
+                    <Link  className='Link2'to={"Login"}>Login</Link>
                     </button>
                 </div>
             </div>
             <div className="content">
                 <Routes>
                     <Route path='/' element={<Home/>}/>
-                    <Route path='Category/Candy' element={<Categorie choix={'Candy'}/>}/>
-                    <Route path='Category/Chips' element={<Categorie choix={'Chips'}/>}/>
-                    <Route path='Category/Chocolat' element={<Categorie choix={'Chocolat'}/>}/>
-                    <Route path='Category/Ice Cream' element={<Categorie choix={'Ice Cream'}/>}/>
+                    <Route path='Category/:category' element={<Categorie />}/>
                     <Route path='Login' element={<Connexion/>}/>
+                    {/* <Route path='*' element={<Error />}/> */}
                 </Routes>
                 <Outlet/>
             </div>

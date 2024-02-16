@@ -3,9 +3,16 @@ import React from 'react'
 import { Add_to_pannier } from '../../features/DataSlice/DataSlice';
 import {useDispatch, useSelector} from 'react-redux'
 import { useParams, Link } from 'react-router-dom'
+
+
 export default function ProduitDetail() {
+  const dispatch = useDispatch();
+  const {category,brand,id,produit}= useParams()
+
+  const handleAddToCart = () => {
+    dispatch(Add_to_pannier(sub_data.produits[id]));
+  };
  const sub_data = useSelector((state)=>state.data)
- const {category,brand,id,produit}= useParams()
  console.log();
   return (
     <>
@@ -47,6 +54,9 @@ export default function ProduitDetail() {
              <Link className='Link_nutri'>Plus d'infos sur Nutri-Score</Link>
             </div>
             <button className='btn_add'><span>Ajouter</span><span>+</span></button>
+            <button className='btn_add' onClick={handleAddToCart}>
+              <span>Ajouter</span><span>+</span>
+            </button>
            </div>
           </div>
          </div>

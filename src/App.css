@@ -8,6 +8,9 @@
 .content{
   height: 100dvh;
   width: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -79,4 +82,19 @@ ul .Link :nth-child(1){
   /* padding: 10px 0; */
   background-color: white;
   border-bottom: 1px solid rgba(0, 0, 0, 0.295);
+}
+
+.logositeimg{
+  height: 90px;
+  width: 90px;
+  margin: 0 20px;
+}
+
+.test-panier{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  gap: 20px;
 }

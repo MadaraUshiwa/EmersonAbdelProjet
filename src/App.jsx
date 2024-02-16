@@ -6,10 +6,15 @@ import Categorie from './components/Categorie/Categorie'
 import Panier from './components/Panier/Panier'
 import Produit_details from './components/ProduitDetail/ProduitDetail'
 import Error from './components/Error/error';
+
 function App() {
     return (
         <div className='App'>
             <div className="nav">
+            <div className='logosite'><img className='logositeimg' src="/img/logosite.jpg" alt="" /></div>
+                <div className="">
+                    <Link className='Link' to={"/"}>Home</Link>
+                </div>
                 <nav>
                     <ul>
                         <li><Link className='Link' to={"/"}><img className='logosite' src={'../'+process.env.PUBLIC_URL + "./img/logosite-removebg.png"} alt="" /> </Link></li>
@@ -19,7 +24,15 @@ function App() {
                         <li><Link className='Link' to={"Category/Ice Cream"}>Ice Cream</Link></li>
                     </ul>
                 </nav>
-
+                <div className="test-panier">
+                    <button className=''>
+                    <Link  className='Link2'to={"Login"}>Login</Link>
+                    </button>
+                    <button>
+                    <Link  className='Link2'to={"Panier"}>Panier</Link>
+                    </button>
+                    
+                </div>
             </div>
             <div className="content">
                 <div className="login_top">
@@ -36,6 +49,7 @@ function App() {
                     <Route path='Category/:category' element={<Categorie />}/>
                     <Route path='Category/:category/details/:id/:brand/:produit' element={<Produit_details/>}/>
                     <Route path='Login' element={<Connexion/>}/>
+                    <Route path='Panier' element={<Panier/>}/>
                     <Route path='*' element={<Error />}/>
                 </Routes>
                 <Outlet/>

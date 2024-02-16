@@ -15,7 +15,7 @@ function Connexion() {
     const handleSubmit = (e) => {
       e.preventDefault();
       dispatch(login({ pseudo, email, password }));
-      navigate("/home");
+      navigate("/");
     };
     
     return (

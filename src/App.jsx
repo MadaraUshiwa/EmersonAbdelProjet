@@ -6,8 +6,11 @@ import Categorie from './components/Categorie/Categorie'
 import Panier from './components/Panier/Panier'
 import Produit_details from './components/ProduitDetail/ProduitDetail'
 import Error from './components/Error/error';
+import { useSelector } from 'react-redux';
+
 
 function App() {
+    const pseudo = useSelector((state) => state.login.pseudo);
     return (
         <div className='App'>
             <div className="nav">
@@ -36,6 +39,9 @@ function App() {
                             <img src="../img/panier.png" alt="" />
                             <Link  to={"Panier"}>Panier</Link>
                             </button>
+                            <div className='utilisateur'>
+                                <p>Bienvenue à toi cher {pseudo}</p>
+                            </div>
                     </div>
                 </div>
             </div>    

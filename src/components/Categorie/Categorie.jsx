@@ -14,7 +14,7 @@ export default function Categorie(){
   <>
    <div className="category_div">
     <div className="input_search">
-      <input type="text" onChange={(e)=>setinput(e.target.value.toLowerCase())}/>
+      <input type="text" placeholder='Recherche produit ...' onChange={(e)=>setinput(e.target.value.toLowerCase())}/>
     </div>
     <div  className="card">
     {

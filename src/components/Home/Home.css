@@ -7,10 +7,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 88dvh;
+    /* justify-content: center; */
+    height: 100%;
     width: 100%;
     font-family: "Fuzzy Bubbles", sans-serif;
+
 }
 
 .home .carrousel {
@@ -68,4 +69,14 @@
 .home .carrousel .next {
     right: 10px;
     border-radius: 10px;
+}
+
+.home-livraison{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(177, 76, 177, 0.455);
 }

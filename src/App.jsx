@@ -7,7 +7,7 @@ import Panier from './components/Panier/Panier'
 import Produit_details from './components/ProduitDetail/ProduitDetail'
 import Error from './components/Error/error';
 import { useSelector } from 'react-redux';
-
+import img_logo from './IMG/logosite-removebg.png'
 
 function App() {
     const pseudo = useSelector((state) => state.login.pseudo);
@@ -44,16 +44,20 @@ function App() {
                             </div>
                     </div>
                 </div>
-            </div>    
-                <Routes>
-                    <Route path='/' element={<Home/>}/>
-                    <Route path='Category/:category' element={<Categorie />}/>
-                    <Route path='Category/:category/details/:id/:brand/:produit' element={<Produit_details/>}/>
-                    <Route path='Login' element={<Connexion/>}/>
-                    <Route path='Panier' element={<Panier/>}/>
-                    <Route path='*' element={<Error />}/>
-                </Routes>
-                <Outlet/>
+            </div>  
+            <div className="zone_affichage">
+            <Routes>
+                <Route path='/' element={<Home/>}/>
+                <Route path='Category/:category' element={<Categorie />}/>
+                <Route path='Category/:category/details/:id/:brand/:produit' element={<Produit_details/>}/>
+                <Route path='Login' element={<Connexion/>}/>
+                <Route path='Panier' element={<Panier/>}/>
+                <Route path='*' element={<Error />}/>
+            </Routes>
+            <div className="div_top_all">
+            <Outlet/>
+            </div>
+            </div>  
             </div>
         </div>
     );

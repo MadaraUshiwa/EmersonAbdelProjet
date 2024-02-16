@@ -164,3 +164,13 @@ ul .Link :nth-child(1){
   height: 50px;
   width: 50px;
 }
+.div_top_all{
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+}
+.zone_affichage{
+  height: 87dvh;
+  width: 100%;
+  /* background-color: green; */
+}

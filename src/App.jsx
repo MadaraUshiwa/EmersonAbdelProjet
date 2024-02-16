@@ -17,6 +17,7 @@ function App() {
                 </div>
                 <nav>
                     <ul>
+                        <li><Link className='Link' to={"/"}><img className='logosite' src={'../'+process.env.PUBLIC_URL + "./img/logosite-removebg.png"} alt="" /> </Link></li>
                         <li><Link className='Link' to={"Category/Candy"}>Candy</Link></li>
                         <li><Link className='Link' to={"Category/Chips"}>Chips</Link></li>
                         <li><Link className='Link' to={"Category/Chocolat"}>Chocolat</Link></li>
@@ -34,6 +35,15 @@ function App() {
                 </div>
             </div>
             <div className="content">
+                <div className="login_top">
+                    <div className="title">
+                        PAPICHULO CAND'S
+                    </div>
+                    <div className="serahc">
+                        <input type="text" />
+                    </div>
+                    <Link  className='Link2'to={"Login"}>Login</Link>
+                </div>
                 <Routes>
                     <Route path='/' element={<Home/>}/>
                     <Route path='Category/:category' element={<Categorie />}/>

@@ -7,10 +7,42 @@ export const dataSlice = createSlice({
   panier : []
  },
  reducers : {
-  Add_to_pannier : ((state,action)=>{
-   state.panier = [...state.panier,action.payload]
-  })
- }
+    Add_to_pannier: (state, action) => {
+      const itemIndex = state.panier.findIndex(
+        (item) => item.id === action.payload.id
+      );
+  
+      if (itemIndex >= 0) {
+        state.panier[itemIndex].quantite += 1;
+      } else {
+        state.panier.push({ ...action.payload, quantite: 1 });
+      }  
+    },
+    increaseQuantity: (state, action) => {
+        const itemIndex = state.panier.findIndex(
+          (item) => item.id === action.payload.id
+        );
+    
+        if (itemIndex >= 0) {
+          state.panier[itemIndex].quantite += 1;
+        }
+      },
+    DecreseQuantity: (state, action) => {
+        const itemIndex = state.panier.findIndex(
+          (item) => item.id === action.payload.id
+        );
+    
+        if (itemIndex >= 0) {
+          state.panier[itemIndex].quantite -= 1;
+        }
+      },  
+    removeFromCart: (state, action) => {
+        state.panier = state.panier.filter(
+          (item) => item.id !== action.payload.id
+        );
+    },
+  },
 })
-export const {Add_to_pannier} = dataSlice.actions
+
+export const { Add_to_pannier, increaseQuantity, removeFromCart, DecreseQuantity } = dataSlice.actions;
 export default dataSlice.reducer

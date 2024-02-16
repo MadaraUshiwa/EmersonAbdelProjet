@@ -6,7 +6,8 @@
   "category":"Candy",
   "prix":"2.40",
   "img":"../img/candy1.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"20gr"
  },
  {
   "id":"1",
@@ -15,7 +16,8 @@
   "category":"Candy",
   "prix":"2.20",
   "img":"../img/candy2.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"25gr"
  },
  {
   "id":"2",
@@ -24,7 +26,8 @@
   "category":"Candy",
   "prix":"2.10",
   "img":"../img/candy3.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"15gr"
  },
  {
   "id":"3",
@@ -33,7 +36,8 @@
   "category":"Candy",
   "prix":"2.99",
   "img":"../img/candy4.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"30gr"
  },
  {
   "id":"4",
@@ -42,7 +46,8 @@
   "category":"Chips",
   "prix":"1.80",
   "img":"../img/chips2.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"180gr"
  },
  {
   "id":"5",
@@ -51,7 +56,8 @@
   "category":"Chips",
   "prix":"1.50",
   "img":"../img/chips3.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"180gr"
  },
  {
   "id":"6",
@@ -60,7 +66,8 @@
   "category":"Chips",
   "prix":"1.20",
   "img":"../img/chips4.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"180gr"
  },
  {
   "id":"7",
@@ -69,7 +76,8 @@
   "category":"Chips",
   "prix":"1.30",
   "img":"../img/chips1.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"150gr"
  },
  {
   "id":"8",
@@ -78,7 +86,8 @@
   "category":"Chocolat",
   "prix":"1.10",
   "img":"../img/chocolate1.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"19gr"
  },
  {
   "id":"9",
@@ -87,7 +96,8 @@
   "category":"Chocolat",
   "prix":"2",
   "img":"../img/chocolate2.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"21gr"
  },
  {
   "id":"10",
@@ -96,7 +106,8 @@
   "category":"Chocolat",
   "prix":"1.89",
   "img":"../img/chocolate3.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"15gr"
  },
  {
   "id":"11",
@@ -105,7 +116,8 @@
   "category":"Chocolat",
   "prix":"2.30",
   "img":"../img/chocolate4.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"30gr"
  },
  {
   "id":"12",
@@ -114,7 +126,8 @@
   "category":"Ice Cream",
   "prix":"2.19",
     "img":"../img/ice_cream1.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"280gr"
  },
  {
   "id":"13",
@@ -123,7 +136,8 @@
   "category":"Ice Cream",
   "prix":"1.50",
     "img":"../img/ice_cream2.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"210gr"
  },
  {
   "id":"14",
@@ -132,7 +146,8 @@
   "category":"Ice Cream",
   "prix":"1.79",
     "img":"../img/ice_cream3.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"320gr"
  },
  {
   "id":"15",
@@ -141,6 +156,7 @@
   "category":"Ice Cream",
   "prix":"1.99",
     "img":"../img/ice_cream4.png",
-  "quantite": 0
+  "quantite": 0,
+  "poids":"270gr"
  }
 ]

@@ -4,7 +4,8 @@ import Home from './components/Home/Home'
 import Connexion from './components/Connexion/Connexion'
 import Categorie from './components/Categorie/Categorie'
 import Panier from './components/Panier/Panier'
-import ProduitDetail from './components/ProduitDetail/ProduitDetail'
+import Produit_details from './components/ProduitDetail/ProduitDetail'
+import Error from './components/Error/error';
 function App() {
     return (
         <div className='App'>
@@ -22,18 +23,17 @@ function App() {
                 </nav>
                 <div className="">
                     <button className=''>
-                    <Link  className='Link'to={"Login"}>Login</Link>
+                    <Link  className='Link2'to={"Login"}>Login</Link>
                     </button>
                 </div>
             </div>
             <div className="content">
                 <Routes>
                     <Route path='/' element={<Home/>}/>
-                    <Route path='Category/Candy' element={<Categorie choix={'Candy'}/>}/>
-                    <Route path='Category/Chips' element={<Categorie choix={'Chips'}/>}/>
-                    <Route path='Category/Chocolat' element={<Categorie choix={'Chocolat'}/>}/>
-                    <Route path='Category/Ice Cream' element={<Categorie choix={'Ice Cream'}/>}/>
-                    <Route path='Login' element={<Connexion />}/>
+                    <Route path='Category/:category' element={<Categorie />}/>
+                    <Route path='Category/:category/details/:id/:brand/:produit' element={<Produit_details/>}/>
+                    <Route path='Login' element={<Connexion/>}/>
+                    <Route path='*' element={<Error />}/>
                 </Routes>
                 <Outlet/>
             </div>

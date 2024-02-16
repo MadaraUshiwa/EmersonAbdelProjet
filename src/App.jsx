@@ -6,18 +6,24 @@ import Categorie from './components/Categorie/Categorie'
 import Panier from './components/Panier/Panier'
 import Produit_details from './components/ProduitDetail/ProduitDetail'
 import Error from './components/Error/error';
+import { useDispatch, useSelector } from 'react-redux';
+import img_logo from './IMG/logosite-removebg.png'
+import { add_cat } from './features/DataSlice/DataSlice';
 
 function App() {
+    const sub_data = useSelector((state)=>state.data)
+    const dispatch = useDispatch()
+    console.log(sub_data);
     return (
         <div className='App'>
             <div className="nav">
                 <nav>
                     <ul>
-                        <li><Link className='Link' to={"/"}><img className='logosite' src={'../'+process.env.PUBLIC_URL + "./img/logosite-removebg.png"} alt="" /> </Link></li>
-                        <li><Link className='Link' to={"Category/Candy"}>Candy</Link></li>
-                        <li><Link className='Link' to={"Category/Chips"}>Chips</Link></li>
-                        <li><Link className='Link' to={"Category/Chocolat"}>Chocolat</Link></li>
-                        <li><Link className='Link' to={"Category/Ice Cream"}>Ice Cream</Link></li>
+                        <li><Link className='Link' to={"/"}><img className='logosite' src={img_logo} alt="" /> </Link></li>
+                        <li><Link className='Link' to={"Category/Candy"} >Candy</Link></li>
+                        <li><Link className='Link' to={"Category/Chips"}  >Chips</Link></li>
+                        <li><Link className='Link' to={"Category/Chocolat"}  >Chocolat</Link></li>
+                        <li><Link className='Link' to={"Category/Ice Cream"}  >Ice Cream</Link></li>
                     </ul>
                 </nav>
 

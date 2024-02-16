@@ -44,5 +44,5 @@ export const dataSlice = createSlice({
   },
 })
 
-export const { Add_to_pannier, increaseQuantity, removeFromCart, DecreseQuantity } = dataSlice.actions;
+export const { Add_to_pannier, increaseQuantity, removeFromCart, DecreseQuantity,add_cat } = dataSlice.actions;
 export default dataSlice.reducer

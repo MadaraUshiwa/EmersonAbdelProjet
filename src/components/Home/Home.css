@@ -1,0 +1,74 @@
+.carrousel-test{
+    display: flex;
+    flex-direction: column;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+    font-family: "Protest Riot", sans-serif;
+
+
+}
+
+.home .carrousel {
+    position: relative;
+    width: 70%;
+    height: 500px;
+    overflow: hidden;
+    padding-top: 3%;
+    background: linear-gradient(to right, hsl(336, 90%, 84%),hsl(298, 100%, 81%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .carrousel .slide {
+    display: none;
+}
+
+.home .carrousel .slide.active {
+    display: block;
+}
+
+.home .carrousel img {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.home .carrousel p {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.home .carrousel .prev, .home .carrousel .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.home .carrousel .prev {
+    left: 10px;
+    border-radius: 10px;
+}
+
+.home .carrousel .next {
+    right: 10px;
+    border-radius: 10px;
+}

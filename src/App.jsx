@@ -23,22 +23,22 @@ function App() {
 
             </div>
             <div className="content">
+            <div className='login-test'>
                 <div className="login_top">
                     <div className="title">
-                        PAPICHULO CAND'S
+                        <p>PAPICHULO</p> <p>CANDY'S</p>
                     </div>
-                    <div className="serahc">
-                        <input type="text" />
-                    </div>
-                    <div className="test-panier">
-                        <button className=''>
-                        <Link  to={"Login"}>Login</Link>
-                        </button>
-                        <button>
-                        <Link  to={"Panier"}>Panier</Link>
-                        </button>
+                    <div className='login-panier'>
+                            <button className='button-login'>
+                            <Link  to={"Login"}>S'identifié</Link>
+                            </button>
+                            <button className='button-panier'>
+                            <img src="../img/panier.png" alt="" />
+                            <Link  to={"Panier"}>Panier</Link>
+                            </button>
                     </div>
                 </div>
+            </div>    
                 <Routes>
                     <Route path='/' element={<Home/>}/>
                     <Route path='Category/:category' element={<Categorie />}/>

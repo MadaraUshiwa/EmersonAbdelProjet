@@ -80,12 +80,19 @@ ul .Link :nth-child(1){
   width: 80px;
 }
 .login_top{
-  width: 100%;
+  width: 800%;
   height: 110px;
   display: flex;
+  justify-content: center;
   /* padding: 10px 0; */
   background-color: white;
+}
+.login-test{
   border-bottom: 1px solid rgba(0, 0, 0, 0.295);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logositeimg{
@@ -96,4 +103,62 @@ ul .Link :nth-child(1){
 
 .test-panier{
   gap: 20px;
+}
+
+.login-panier{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 70%;
+  padding: 10px 20px;
+  background-color: white;
+  gap: 1%;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  color: purple;
+  text-align: center;
+  margin: 20px 0;
+  margin-left: 30px;
+}
+
+.button-login{
+  padding: 10px 20px;
+  background: none;
+  color: hsl(226, 7%, 38%);
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Fuzzy Bubbles", sans-serif;
+  & a {
+    text-decoration: none;
+    color: hsl(226, 7%, 38%);
+  }
+}
+
+.button-panier{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: none;
+  color: hsl(226, 7%, 38%);
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Fuzzy Bubbles", sans-serif;
+  & a {
+    text-decoration: none;
+    color: hsl(226, 7%, 38%);
+  }
+}
+
+.button-panier img{
+  height: 50px;
+  width: 50px;
 }

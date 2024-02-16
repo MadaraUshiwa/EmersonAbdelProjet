@@ -22,7 +22,7 @@ function Connexion() {
         
         <div className="connexion-principale">
         <div className="titre-site">
-            <h1>Candy Shop</h1>
+            <h1>Papichulo Candy's</h1>
         </div>
             <div>
             <div className="titre-connexion">

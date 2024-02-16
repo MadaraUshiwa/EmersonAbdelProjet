@@ -16,3 +16,40 @@ body {
 h1,h2,h3,h4,p{
   margin: 0;
 }
+@media (max-width:768px)  {
+  .category_div{
+    /* background-color: red; */
+    /* overflow: hidden; */
+  }
+  .card{
+    overflow-y: scroll;
+    height: 85dvh !important;
+    display: grid;
+    grid-template-columns: repeat(1,1fr) !important;
+    /* background-color: purple; */
+    /* overflow: hidden; */
+  }
+  .details_zone{
+    /* overflow-y: scroll !important; */
+  }
+  .data_details{
+    display: flex;
+    flex-direction: column !important;
+    /* background-color: red; */
+    /* overflow-y: scroll ; */
+    height: 100% !important;
+    gap: 30px;
+   }
+   .img_details{
+    height: 40dvh !important;
+    width: 90% !important;
+    & img{
+      height: 25dvh!important;
+      width: 35dvw!important;
+    }
+   }
+   .contenu{
+    height: 330px !important;
+    width: 90% !important;
+   }
+}

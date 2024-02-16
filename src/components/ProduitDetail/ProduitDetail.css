@@ -1,9 +1,12 @@
 .details_zone{
- background-color: white;
+ /* background-color: orange; */
  border-radius: 0 0 10px 10px;
- height: 85dvh;
+ /* height: 85dvh; */
+ /* height: 80dvh; */
+ height: 100%;
  width: 100%;
  display: flex;
+ padding: 20px 0;
  justify-content: center;
  align-items: center;
 
@@ -16,7 +19,7 @@
  }
 }
 .data_details{
- height: 90%;
+ height: 83dvh; 
  width: 95%;
  display: flex;
  align-items: center;
@@ -32,8 +35,8 @@
  justify-content: center;
  align-items: center;
  & img{
-  height: 50dvh;
-  width: 27dvw;
+  height: 350px;
+  width: 300px;
 
  }
 }

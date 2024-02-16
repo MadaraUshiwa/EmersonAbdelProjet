@@ -16,11 +16,11 @@ function App() {
             <div className="nav">
                 <nav>
                     <ul>
-                        <li><Link className='Link' to={"/"}><img className='logosite' src={'../'+process.env.PUBLIC_URL + "./img/logosite-removebg.png"} alt="" /> </Link></li>
-                        <li><Link className='Link' to={"Category/Candy"}>Candy</Link></li>
-                        <li><Link className='Link' to={"Category/Chips"}>Chips</Link></li>
-                        <li><Link className='Link' to={"Category/Chocolat"}>Chocolat</Link></li>
-                        <li><Link className='Link' to={"Category/Ice Cream"}>Ice Cream</Link></li>
+                        <li><Link className='Link' to={"/"}><img className='logosite' src={img_logo} alt="" /> </Link></li>
+                        <li><Link className='Link' to={"Category/Candy"} >Candy</Link></li>
+                        <li><Link className='Link' to={"Category/Chips"}  >Chips</Link></li>
+                        <li><Link className='Link' to={"Category/Chocolat"}  >Chocolat</Link></li>
+                        <li><Link className='Link' to={"Category/Ice Cream"}  >Ice Cream</Link></li>
                     </ul>
                 </nav>
 

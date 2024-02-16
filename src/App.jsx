@@ -7,6 +7,7 @@ import Panier from './components/Panier/Panier'
 import Produit_details from './components/ProduitDetail/ProduitDetail'
 import Error from './components/Error/error';
 import { useSelector } from 'react-redux';
+import img_logo from '../src/IMG/logosite-removebg.png'
 
 
 function App() {

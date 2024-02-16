@@ -46,7 +46,7 @@ export default function ProduitDetail() {
              <span>Le Nutri-Score est une représentation visuelle du tableau des valeurs nutritionnelles.</span>
              <Link className='Link_nutri'>Plus d'infos sur Nutri-Score</Link>
             </div>
-            <button className='btn_add' onClick={''}><span>Ajouter</span><span>+</span></button>
+            <button className='btn_add'><span>Ajouter</span><span>+</span></button>
            </div>
           </div>
          </div>

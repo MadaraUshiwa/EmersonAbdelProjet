@@ -4,7 +4,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90.5vh;
+    width: 100%;
     background: linear-gradient(to right, hsl(336, 90%, 84%), hsl(336, 90%, 60%));
     font-family: "Protest Riot", sans-serif;
 }

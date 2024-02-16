@@ -6,14 +6,11 @@ import Categorie from './components/Categorie/Categorie'
 import Panier from './components/Panier/Panier'
 import Produit_details from './components/ProduitDetail/ProduitDetail'
 import Error from './components/Error/error';
-import { useDispatch, useSelector } from 'react-redux';
-import img_logo from './IMG/logosite-removebg.png'
-import { add_cat } from './features/DataSlice/DataSlice';
+import { useSelector } from 'react-redux';
+
 
 function App() {
-    const sub_data = useSelector((state)=>state.data)
-    const dispatch = useDispatch()
-    console.log(sub_data);
+    const pseudo = useSelector((state) => state.login.pseudo);
     return (
         <div className='App'>
             <div className="nav">
@@ -29,22 +26,25 @@ function App() {
 
             </div>
             <div className="content">
+            <div className='login-test'>
                 <div className="login_top">
                     <div className="title">
-                        PAPICHULO CAND'S
+                        <p>PAPICHULO</p> <p>CANDY'S</p>
                     </div>
-                    <div className="serahc">
-                        <input type="text" />
-                    </div>
-                    <div className="test-panier">
-                        <button className=''>
-                        <Link  to={"Login"}>Login</Link>
-                        </button>
-                        <button>
-                        <Link  to={"Panier"}>Panier</Link>
-                        </button>
+                    <div className='login-panier'>
+                            <button className='button-login'>
+                            <Link  to={"Login"}>S'identifié</Link>
+                            </button>
+                            <button className='button-panier'>
+                            <img src="../img/panier.png" alt="" />
+                            <Link  to={"Panier"}>Panier</Link>
+                            </button>
+                            <div className='utilisateur'>
+                                <p>Bienvenue à toi cher {pseudo}</p>
+                            </div>
                     </div>
                 </div>
+            </div>    
                 <Routes>
                     <Route path='/' element={<Home/>}/>
                     <Route path='Category/:category' element={<Categorie />}/>

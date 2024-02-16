@@ -33,8 +33,14 @@ export const dataSlice = createSlice({
         );
     
         if (itemIndex >= 0) {
-          state.panier[itemIndex].quantite -= 1;
-        }
+            if (state.panier[itemIndex].quantite > 1) {
+              state.panier[itemIndex].quantite -= 1;
+            } else {
+              state.panier = state.panier.filter(
+                (item) => item.id !== action.payload.id
+              );
+            }
+          }
       },  
     removeFromCart: (state, action) => {
         state.panier = state.panier.filter(

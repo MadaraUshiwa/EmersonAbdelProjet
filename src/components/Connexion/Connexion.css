@@ -6,17 +6,17 @@
     justify-content: center;
     height: 90.5vh;
     width: 100%;
-    background: linear-gradient(to right, hsl(336, 90%, 84%), hsl(336, 90%, 60%));
-    font-family: "Protest Riot", sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Fuzzy Bubbles", sans-serif;
 }
 .connexion-principale h1 {
-    color: hsl(226, 7%, 38%);
-    font-size: 2em;
+    color: purple;
+    font-size: 1em;
     margin-bottom: 20px;
     margin: 0;
 }
 .titre-site {
-    color: hsl(226, 7%, 38%);
+    color: purple;
     font-size: 2em;
     height: 10%;
     display: flex;
@@ -26,7 +26,7 @@
     border: 2px solid hsl(226, 7%, 38%);
     border-radius: 10px;
     padding: 10px;
-    background-color: hsl(336, 90%, 84%);
+    background-color: hsl(0, 0%, 95%);
     box-shadow: 0 0 10px 0 hsl(225, 7%, 24%);
     width: 400px;
 }
@@ -42,13 +42,14 @@
     margin-bottom: 5% !important;
     margin-left: 25% !important;
     width: 50%;
-    background-color: hsl(336, 90%, 84%) !important;
+    background-color: hsl(0, 0%, 95%) !important;
     color: hsl(226, 7%, 38%) !important;
     border: 2px solid hsl(226, 7%, 38%) !important;
     border-radius: 5px !important;
     font-size: 1em !important;
     cursor: pointer;
     transition: 0.3s;
+    font-family: "Fuzzy Bubbles", sans-serif !important;
 }
 
 
